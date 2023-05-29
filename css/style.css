@@ -871,6 +871,15 @@ input:focus, textarea:focus, select:focus{
         margin-top: 30px;
     }
 }
+@media screen and (max-width:360px){
+    .footer-texts2{
+        height: 60vh;
+        width: 80vw;
+    }
+    .social-media{
+        margin-top: 0px;
+    }
+}
 /* About page */
 @media screen and (max-width:768px){
     .about-img{

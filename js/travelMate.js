@@ -83,7 +83,6 @@ const Data = [{
 
 // Burger Menu
 const showNavbar = () => {
-
     const burgerMenu = document.querySelector('.navBar-contain');
     burgerMenu.classList.add('navLinks');
   };
@@ -93,7 +92,7 @@ const showNavbar = () => {
   };
   
 
-//   price Change
+// price Change
 const storeInputValue = () => {
     const rangeInput = document.querySelector('.priceData');
     const value = rangeInput.value;
