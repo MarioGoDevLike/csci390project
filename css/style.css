@@ -452,7 +452,7 @@ input:focus, textarea:focus, select:focus{
 .video-container .video-footer{
     width: 100%;
     object-fit: cover;
-    height: 90vh;
+    height: 100vh;
     position: absolute;
     z-index: 20;
 } 
@@ -514,7 +514,7 @@ input:focus, textarea:focus, select:focus{
     position: absolute;
     position: relative;
     z-index: 21;
-    width:50vw;
+    width:60vw;
     border-radius: 20px;
     height: 50vh;
     margin-bottom: 10px;
@@ -820,6 +820,12 @@ input:focus, textarea:focus, select:focus{
 
 
 /* Footer */
+@media screen and (max-width:1010px){
+    .more-info-container{
+        margin-top: 0px;
+    }
+    
+}
 @media screen and (max-width:768px) {
     .text-container{
         height: 10vh;
@@ -838,19 +844,31 @@ input:focus, textarea:focus, select:focus{
     .text-paragraph{
         width: 60vw;
     }
+    .text-paragraph p{
+        width: 70vw;
+    }
     .footer-texts{
         height: 60vh;
     }
     .footer-texts2{
-        width: 60vw;
-        height: 50vh;
-        margin-bottom: 10px;
+        width: 65vw;
+        height:57vh;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .social-media{
+        margin-top: 40px;
         justify-content: center;
+    }
+}
+@media screen and (max-width:615px){
+    .footer-texts2{
+        width: 70vw;
+        height: 57vh;
+    }
+    .social-media{
+        margin-top: 30px;
     }
 }
 /* About page */
@@ -859,6 +877,7 @@ input:focus, textarea:focus, select:focus{
         display: none;
     }
 }
+
 @media screen and (max-width:960px){
     .about-img{
         display: none;
